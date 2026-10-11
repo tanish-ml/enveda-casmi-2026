@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Jupyter / Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Kaggle / Data
+data/
+raw_data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.mgf
+*.mzML
+*.msp
+*.zip
+*.tar.gz
+*.tgz
+
+# Submission outputs
+submission.csv
+submission_*.csv
+submissions/
+
+# Models & Checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+weights/
+
+# Experiment tracking & Logs
+wandb/
+runs/
+lightning_logs/
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
